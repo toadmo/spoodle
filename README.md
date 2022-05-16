@@ -19,6 +19,8 @@ There will be four phases to this project.
 ### Phase 1:
 
 The first phase, using a pretrained model to classify doodles, will be relatively simple. I will be using [DoodleNet](https://github.com/yining1023/doodleNet), a pretrained convolutional neural network (CNN) that is trained on Google's [Quick Draw dataset](https://quickdraw.withgoogle.com/data). There are two CNN classifiers in the repo, one running with tf.js and one running with keras. Since I am already familiar with Keras in python, I am going to try to learn Javascript and use the tf.js model.
+ 
+Needed to up the brush size to 18, since it needs to match as closely as possible to the dataset.
 
 
 ## Ideas:
@@ -32,3 +34,4 @@ The first phase, using a pretrained model to classify doodles, will be relativel
 ## Sources:
 
 https://www.youtube.com/watch?v=ABN_DWnM5GQ
+https://github.com/yining1023/doodleNet
