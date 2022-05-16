@@ -20,7 +20,7 @@ There will be four phases to this project.
 
 The first phase, using a pretrained model to classify doodles, will be relatively simple. I will be using [DoodleNet](https://github.com/yining1023/doodleNet), a pretrained convolutional neural network (CNN) that is trained on Google's [Quick Draw dataset](https://quickdraw.withgoogle.com/data). There are two CNN classifiers in the repo, one running with tf.js and one running with keras. Since I am already familiar with Keras in python, I am going to try to learn Javascript and use the tf.js model.
  
-Needed to up the brush size to 18, since it needs to match as closely as possible to the dataset.
+Needed to up the brush size:canvas size ratio to 1:28, since it needs to match as closely as possible to the dataset. 
 
 
 ## Ideas:
@@ -29,6 +29,8 @@ Needed to up the brush size to 18, since it needs to match as closely as possibl
 
 - Perhaps add a multiplier for an early submit, where the time left when submitted gives a higher score.
 - Quick submit hotkey.
+- Add percentage while you draw?
+- After submitting, add points based on placing and show other peoples' drawings and their percentages.
 
 
 ## Sources:
